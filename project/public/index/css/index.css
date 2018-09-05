@@ -1,0 +1,778 @@
+body {
+    background: #f5f5f5;
+}
+
+.banner {
+    height: 400px;
+    background-color: rgb(255, 231, 231);
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    height: 400px;
+}
+
+.banner-imgbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-imgbox a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 1190px;
+    top: 0;
+    z-index: 1;
+}
+
+.banner-imgbox a img {
+    display: block;
+}
+
+.banner-content:hover .carousel-multiple-arrows-left {
+    display: block;
+}
+
+.banner-content:hover .carousel-multiple-arrows-right {
+    display: block;
+}
+
+
+.banner-imgbox a:nth-child(1) {
+    left: 0;
+}
+
+.carousel-multiple-arrows-left {
+    position: absolute;
+    top: 150px;
+    height: 100px;
+    background: rgba(0, 0, 0, .1);
+    width: 40px;
+    z-index: 2;
+    left: 240px;
+    display: none;
+}
+
+.carousel-multiple-arrows-left:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.carousel-multiple-arrows-right {
+    position: absolute;
+    top: 150px;
+    height: 100px;
+    background: rgba(0, 0, 0, .1);
+    width: 40px;
+    z-index: 2;
+    right: 0;
+    display: none;
+}
+
+.carousel-multiple-arrows-right:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+
+.banner-arrows em {
+    width: 15px;
+    height: 30px;
+    display: block;
+    background-image: url(../icon/hero_splite_arrow.png);
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.carousel-multiple-arrows-left em {
+    background-position: 0 0;
+}
+
+.carousel-multiple-arrows-right em {
+    background-position: -15px 0;
+}
+
+.banner-list {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+    z-index: 2;
+}
+
+.banner-list li {
+    width: 100px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-right: 4px;
+}
+
+.banner-list li.active {
+    background: white;
+}
+
+.weeklySpecial-content {
+    margin-left: 250px;
+    margin-top: 10px;
+    height: 140px;
+    display: flex;
+}
+
+.weeklySpecial-content li {
+    margin-right: 10px;
+}
+
+.Brand {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.brand-title {
+    height: 36px;
+}
+
+.brand-title-content-left {
+    width: 387px;
+    height: 36px;
+    background-image: url(../icon/sprite_title.png);
+    background-repeat: no-repeat;
+    background-position: -20px -13px;
+    background-size: 100%;
+}
+
+.brand-title-content-right {
+    display: flex;
+    height: 36px;
+}
+
+.brand-title-content-right li {
+    margin-left: 14px;
+}
+
+.brand-title-content-right li a {
+    font: 14px/36px "";
+    color: #000;
+    cursor: pointer;
+}
+
+.brand-title-content-right li.active a {
+    font-weight: 700;
+}
+
+.brand-title-content-right li:hover a {
+    font-weight: 700;
+}
+
+.brand-body {
+    height: 320px;
+}
+
+.module-carousel {
+    width: 590px;
+    height: 320px;
+    position: relative;
+}
+
+.module-carousel:hover .module-arrows-left {
+    display: block;
+}
+
+.module-carousel:hover .module-arrows-right {
+    display: block;
+}
+
+.module-imgbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.module-imgbox a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 590px;
+    top: 0;
+}
+
+.module-imgbox a img {
+    display: block;
+}
+
+.module-imgbox a:nth-child(1) {
+    left: 0;
+}
+
+.module-arrows-left {
+    position: absolute;
+    top: 120px;
+    height: 80px;
+    background: rgba(0, 0, 0, .1);
+    width: 26px;
+    left: 0;
+    display: none;
+}
+
+.module-arrows-left:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.module-arrows-right {
+    position: absolute;
+    top: 120px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.1);
+    width: 26px;
+    right: 0;
+    display: none;
+}
+
+.module-arrows-right:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.module-arrows em {
+    width: 15px;
+    height: 30px;
+    display: block;
+    background-image: url(../icon/hero_splite_arrow.png);
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.module-arrows-left em {
+    background-position: 0 0;
+}
+
+.module-arrows-right em {
+    background-position: -15px 0;
+}
+
+.module-list {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+}
+
+.module-list li {
+    width: 50px;
+    height: 3px;
+    background: rgba(0, 0, 0, .1);
+    margin-right: 4px;
+}
+
+.module-list li.active {
+    background: white;
+}
+
+.module_tabGroupList {
+    width: 600px;
+    height: 320px;
+    background: #fff;
+}
+
+.module_tabGroupList ul {
+    height: 320px;
+    transition-duration: 1.2s;
+    display: none;
+}
+
+.module_tabGroupList ul li {
+    width: 149px;
+    height: 79px;
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    position: relative;
+    float: left;
+}
+
+.module_tabGroupList ul.module_tabGroupList_show {
+    display: block;
+}
+
+.module_tabGroupList ul li a {
+    display: block;
+    width: 144px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.module_tabGroupList_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 12px;
+    font-size: 12px;
+    display: none;
+}
+
+.module_tabGroupList_banner {
+    color: #fff;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+
+.module_tabGroupList_hover .module_tabGroupList_link {
+    width: 84px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #e00;
+    line-height: 18px;
+    border-radius: 12px;
+    margin: 5px auto;
+}
+
+.module_tabGroupList_show li:hover .module_tabGroupList_hover {
+    display: block;
+}
+
+.picks-title {
+    height: 36px;
+}
+
+.picks-title h2 {
+    width: 387px;
+    height: 36px;
+    background-image: url(../icon/sprite_title.png);
+    background-repeat: no-repeat;
+    background-position: -20px -47px;
+    background-size: 100%;
+}
+
+.picks-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.picks-info-content li {
+    width: 590px;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.picks-info-list-product {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    right: 10px;
+}
+
+.picks-info-list-product li {
+    height: 130px;
+    width: 190px;
+    margin-bottom: 1px;
+    position: relative;
+    background-color: #fff;
+    padding: 10px 0 0 10px;
+}
+
+.picks-info-list-product li a {
+    display: block;
+    color: #000;
+    position: relative;
+    height: 100%;
+}
+
+.picks-info-product-brand {
+    font: 600 14px/20px "";
+}
+
+.picks-info-product-content {
+    width: 160px;
+    font: 14px/20px "";
+}
+
+.picks-info-product-price {
+    font: 14px/20px "";
+    color: #e00;
+    margin-top: 5px;
+}
+
+.picks-info-list-product img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 0;
+    right: 5px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+.picks-info-list-product li:hover img {
+    right: 10px;
+}
+
+.category {
+    margin-top: 80px;
+}
+
+.category-title {
+    height: 36px;
+}
+
+.category-title-content-left {
+    width: 387px;
+    height: 36px;
+    background-image: url(../icon/sprite_title.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.category-title-content-right {
+    display: flex;
+    height: 36px;
+}
+
+.category-title-content-right li {
+}
+
+.category-title-content-right li a {
+    font: 14px/36px "";
+    color: #000;
+    cursor: pointer;
+}
+
+.category-title-content-right li span {
+    margin: 0 12px;
+    color: #dadada;
+}
+
+.category-title-content-right li:hover a {
+    font-weight: 700;
+}
+
+.category-body {
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.category-body-content-left {
+    width: 390px;
+    height: 500px;
+}
+
+.category-body-content-right {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.category-body-content-right li {
+    width: 199px;
+    padding: 15px 10px;
+    padding-right: 0;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    border-right: 1px solid #f5f5f5;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.module_categoryProduct_img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    right: -5px;
+    bottom: 0;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+.category-body-content-right li:hover .module_categoryProduct_img {
+    right: 10px;
+}
+
+.module_categoryProduct_content {
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    z-index: 10;
+}
+
+.module_categoryProduct_brand {
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.module_categoryProduct_content {
+    width: 100%;
+    line-height: 18px;
+}
+
+.module_categoryProduct_price {
+    color: #e00;
+    margin-top: 4px;
+    line-height: 18px;
+}
+
+.category-footer {
+    background: #fff;
+    height: 60px;
+}
+
+.category-footer-content {
+    height: 60px;
+    display: flex;
+}
+
+.category-footer-content li {
+    width: 148px;
+    height: 60px;
+}
+
+.category-footer-content li a {
+    float: left;
+    width: 146px;
+    height: 60px;
+}
+
+.category-footer-content li em {
+    float: left;
+    height: 16px;
+    width: 2px;
+    background-color: #b1b1b1;
+    margin-top: 22px;
+}
+
+.category_skinCare .category-title-content-left {
+    background-position: -20px -78px;
+}
+
+.category_makeUp .category-title-content-left {
+    background-position: -20px -113px;
+}
+
+.category_fragrance .category-title-content-left {
+    background-position: -20px -146px;
+}
+
+.category_tools .category-title-content-left {
+    background-position: -20px -247px;
+}
+
+.category_manSkinCare .category-title-content-left {
+    background-position: -20px -279px;
+}
+
+.category_bodyCare .category-title-content-left {
+    background-position: -20px -179px;
+}
+
+.category_hairCare .category-title-content-left {
+    background-position: -20px -212px;
+}
+
+.GuessYouLike {
+    margin-top: 80px;
+}
+
+.guessyoulike-title {
+    height: 36px;
+}
+
+.guessyoulike-title h2 {
+    width: 387px;
+    height: 36px;
+    background-image: url(../icon/sprite_title.png);
+    background-repeat: no-repeat;
+    background-position: -20px -313px;
+    background-size: 100%;
+}
+
+.guessyoulike-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-top: 1px solid #f7f7f7;
+}
+
+.guessyoulike-info-content li {
+    width: 237px;
+    height: 259px;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.guessyoulike-info-list-img {
+    display: block;
+    height: 180px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.guessyoulike-info-list-brand {
+    width: 196px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.guessyoulike-info-content .guessyoulike-info-list-content {
+    display: block;
+    width: 196px;
+    margin: 0 20px;
+    font: 14px/20px "";
+    color: #000;
+}
+
+.guessyoulike-info-list-content:hover {
+    color: #dc002f;
+}
+
+.guessyoulike-info-list-price {
+    width: 196px;
+    margin: 6px 20px 0;
+    font: 14px/20px "";
+    color: #e00;
+}
+
+.FixedTop {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px #f0f0f0;
+    z-index: 200;
+    display: none;
+}
+
+.FixedTop.active {
+    display: block;
+    position: fixed;
+    top: 0;
+}
+
+.fixedTop-info-content {
+    padding: 10px 0;
+}
+
+.fixedTop-info-content-logo {
+    margin: 5px 80px 5px 0;
+    height: 30px;
+}
+
+.FixedLeft {
+    z-index: 1001;
+    width: 40px;
+    display: none;
+    position: absolute;
+    top: 1190px;
+}
+
+.FixedLeft.active {
+    display: block;
+    position: fixed;
+    top: 70px;
+}
+
+.fixedLeft-info-content-list {
+    background-color: hsla(0, 0%, 100%, .95);
+    display: flex;
+    flex-direction: column;
+}
+
+.fixedLeft-info-content-content {
+    width: 26px;
+    font: 12px/14px "";
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    cursor: pointer;
+    padding-top: 20px;
+    color: #9d9d9d;
+}
+
+.fixedLeft-info-content-content.active {
+    color: #e00;
+}
+
+.fixedLeft-info-content-content:hover {
+    color: #e00;
+}
+
+.FixedRight {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 60px;
+    display: none;
+}
+
+.FixedRight.active {
+    display: block;
+}
+
+.FixedRight ul li {
+    height: 40px;
+    width: 40px;
+}
+
+.FixedRight ul li a {
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+.FixedRight em {
+    background-color: #aaa;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.FixedRight .toolbar_text {
+    display: none;
+    width: 80px;
+    height: 40px;
+    font: 12px/40px "";
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: -80px;
+    top: 0;
+}
+
+.FixedRight ul li:hover em {
+    background-color: #494949
+}
+
+.FixedRight ul li:hover .toolbar_text {
+    display: block;
+}
+
+.FixedRight .sprite_toolbar {
+    background-image: url(../icon/sprite_toolbar_new.png);
+    float: right;
+}
+
+.FixedRight .myCart em {
+    background-position: 0 -40px;
+}
+
+.FixedRight .serviceOnline em {
+    background-position: 0 -160px;
+}
+
+.FixedRight .qrCode em {
+    background-position: 0 -240px;
+}
+
+.FixedRight .returnTop em {
+    background-position: 0 -280px;
+}

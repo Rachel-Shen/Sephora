@@ -1,0 +1,221 @@
+.top {
+	height: 89px;
+	padding-top: 28px;
+	box-sizing: border-box;
+}
+
+.topLogo {
+	display: block;
+	cursor: pointer;
+}
+
+.top span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #333;
+    margin: 10px 0 0 30px;
+}
+
+.goSephoraLogin {
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+}
+
+.goSephoraLogin p {
+    color: #9d9d9d;
+}
+
+.goSephoraLogin ul {
+    display: flex;
+}
+
+.goSephoraLogin ul a {
+    color: red;
+}
+
+.goSephoraLogin li:last-child {
+    margin: 4px 0 0 4px;
+    width: 4px;
+    height: 8px;
+    background-position: -52px 0;
+    background-image: url(../icon/LoginIn-icon.png);
+}
+
+.main {	
+	width: 100%;
+	height: 804px;
+	position: relative;
+}
+
+.main-bg {
+	width: 100%;
+	height: 804px;
+	background: url("https://www.sephora.cn/soa/bundle/loginsSearchPassword_Bg.jpg") no-repeat scroll 50% 0;
+	z-index: 1;
+}
+
+.SephoraRegisterBodyMainForm {
+	width: 500px;
+    top: 120px;
+    left: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.SephoraRegisterBodyMainForm>p {
+    font: 14px/32px "";
+    float: left;
+    width: 100px;
+    height: 32px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.SephoraRegisterBodyMainForm .input {
+    width: 300px;
+    float: left;
+    height: 32px;
+}
+
+.SephoraRegisterBodyMainForm input {
+    width: 298px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-indent: 20px;
+}
+
+.errorTip {
+    float: left;
+    width: 500px;
+    margin-left: 110px;
+    height: 34px;
+    line-height: 24px;
+}
+
+.errorRedIcon,.errorFont {
+    display: none;
+}
+
+.errorRedIcon {
+    margin: 9px 4px 0 0;
+    width: 14px;
+    height: 14px;
+    background-position: -38px -14px;
+    background-image: url(../icon/LoginIn-icon.png);
+}
+
+.errorFont {
+    font: 12px/32px "";
+    color: #f12526;
+}
+
+.confirmButton {
+    margin-left: 110px;
+    width: 300px;
+    height: 32px;
+    background-color: #999;
+    color: #fff;
+    float: left;
+    font: 14px/32px "";
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.readAndChange {
+    float: left;
+    margin-left: 110px;
+    width: 300px;
+    height: 30px;
+    font: 12px/30px "";
+    color: #9d9d9d;
+}
+
+.readAndChange p {
+    cursor: pointer;
+}
+
+.readAndChange p:hover {
+    color: #e00;
+    text-decoration: underline;
+}
+
+.readAndChange ul {    
+    cursor: pointer;
+    display: flex;
+}
+
+.readAndChange ul:hover {
+    color: #e00;
+    text-decoration: underline;
+}
+
+.readAndChange ul:hover li:nth-child(2) {
+    border-left-color: #e00;
+}
+
+.readAndChange ul li:nth-child(2) {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 5px solid #9d9d9d;
+    border-bottom: 4px solid transparent;
+    float: left;
+    margin-top: 11px;
+    margin-left: 2px;
+}
+
+.rightArraw {
+	margin: 22px 0 0 6px;
+    width: 4px;
+    height: 8px;
+    background-position: -52px 0;
+    background-image: url(../icon/LoginIn-icon.png);
+}
+
+.red {
+	color: #f12526;
+    cursor: pointer;
+}
+
+.footer-declaration {
+    background: #000;
+}
+
+.footer-declaration-content {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.footer-declaration-content-center {
+    padding: 0 22px;
+    color: #666;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.footer-declaration-id {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-declaration-id a {
+    font: 14px/22px "";
+    color: #6f6f6f;
+    margin: 0 22px;
+}
+
+.footer-declaration-id a:first-child {
+    background-image: url(../icon/footer-redords-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.footer-declaration-info {
+    font: 12px/22px "";
+    color: #666;
+    text-align: center;
+}

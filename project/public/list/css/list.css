@@ -1,0 +1,143 @@
+.navigation-content-menu-list {
+    display: none;
+}
+
+.navigation-content-menu:hover .navigation-content-menu-list {
+    display: block;
+}
+
+.mainList {
+    margin-top: 80px;
+}
+
+.mainList-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.mainList-info-content li {
+    width: 237px;
+    height: 259px;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    position: relative;
+}
+
+.mainList-info-content li:nth-child(5n) {
+    border-right: 0;
+}
+
+.mainList-info-content li:hover {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.mainList-info-content li:hover .p_buy {
+    display: block;
+}
+
+.mainList-info-content li .p_buy {
+    display: none;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    height: 32px;
+    font: 14px/32px "";
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainList-info-list-img {
+    display: block;
+    height: 180px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.mainList-info-list-brand {
+    width: 196px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.mainList-info-content .mainList-info-list-content {
+    display: block;
+    width: 196px;
+    margin: 0 20px;
+    font: 14px/20px "";
+    color: #000;
+}
+
+.mainList-info-list-content:hover {
+    color: #dc002f;
+}
+
+.mainList-info-list-price {
+    width: 196px;
+    margin: 6px 20px 0;
+    font: 14px/20px "";
+    color: #e00;
+}
+
+.tcdPageCode {
+    margin-top: 70px;
+    padding: 15px 20px;
+    text-align: left;
+    color: #ccc;
+    text-align: center;
+}
+
+.tcdPageCode a {
+    display: inline-block;
+    color: #000;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.tcdPageCode a:hover {
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+.tcdPageCode span.current {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 20px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.tcdPageCode span.disabled {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 20px;
+    margin: 0 2px;
+    color: #bfbfbf;
+    background: #f2f2f2;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.footer {
+    margin-top: 50px;
+}

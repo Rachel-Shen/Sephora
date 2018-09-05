@@ -1,0 +1,104 @@
+.navigation-content-menu-list {
+    display: none;
+}
+
+.navigation-content-menu:hover .navigation-content-menu-list {
+    display: block;
+}
+
+.MyAccount {
+	margin: 30px auto;
+	display: flex;
+}
+
+.leftTree {
+	width: 180px;
+}
+
+.leftTree>.title {
+	width: 100%;
+    font: 16px/36px "";
+    color: #000;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.sephoraNavTree {
+	margin: 20px 0 0 40px;
+}
+
+.sephoraNavTree li {
+	height: 28px;
+    color: #333;
+    font: 14px/28px "";
+    text-align: center;
+}
+
+.sephoraNavTree li:not(.title):hover {
+	color: red;
+    text-decoration: underline;
+}
+
+.sephoraNavTree li.title {
+	font-weight: 600;
+	text-align: left;
+}
+
+.rightBg {
+	width: 950px;
+    margin-left: 59px;
+}
+
+.rightBg .title {
+    margin-left: 60px;
+    font: 16px/36px "";
+    color: #333;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #000;
+}
+
+.rightMain {
+	border-left: 1px solid #ccc;
+    width: 950px;
+}
+
+.sepMySephora {
+    margin-left: 60px;
+    width: 890px;
+}
+
+.name {
+    margin-top: 20px;
+    width: 240px;
+    height: 130px;
+    background-color: #fafafa;
+    display: flex;
+}
+
+.name img {
+	width: 80px;
+	height: 80px;
+    border-radius: 100px;
+    margin: 25px 14px 0;
+    cursor: pointer;
+}
+
+.name .text {
+	width: 130px;
+    height: 130px;
+    font: 18px/130px "";
+    text-align: center;
+    overflow: hidden;
+}
+
+.card {
+	margin: 20px 0 0 10px;
+    width: 640px;
+    height: 130px;
+    background-color: #fafafa;
+}
+
+
+
+
